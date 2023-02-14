@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+	<!-- title -->
+	<title>Cocktail Sort Visualizer</title>
+
+	<!-- linking style.css -->
+	<link href="Project.css" rel="stylesheet" />
+</head>
+
+<!-- body -->
+<body>
+	<!-- Heading 1 -->
+	<h1 class="head1">COCKTAIL SORT</h1>
+	
+	<center>
+	<!-- Heading 2 -->
+	<h2 class="head2">Enter The Numbers Separated </h2>
+	
+	<!-- TextBox to taking input -->
+	<input type="text" id="arrv" onkeyup="submit()"  > 
+
+	<!-- Button for generating array -->
+	<button disabled="true" onclick="generatearray()" id="Button1" >Submit </button>
+ 	
+	<!-- Button to Rest the values-->
+ 	<button disabled="true"  onclick="removevalues()" id="Button2" class="btn">Clear </button>
+	<p></p>
+	
+	<!-- To print the input array -->
+	<span id="result" ></span>
+	<p></p>	
+
+	<!-- Button to Generate Bars  -->
+	<button disabled="true" class="btn" onclick="generatebars()" id="Button3"> Generate Bars </button>
+	
+	<!-- "Cocktail Sort" button -->
+	<button class="btn" disabled="true" onclick="CocktailSort()" id="Button4"> Sort It </button>
+
+	<!-- container for bars -->
+	<div class="data-container"></div> 
+<p></p>
+<p></p>
+	<!-- To print the sorted array -->
+	<span id="sorted" ></span>	
+    <p></p>
+
+	
+	
+	<!-- <div id="ele"></div> -->
+
+</center>
+</body>
+
+<!-- linking script.js -->
+<script src="index.js"></script>
+<!-- <script src="jquery-3.6.0.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</html>

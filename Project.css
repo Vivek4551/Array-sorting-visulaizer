@@ -1,0 +1,89 @@
+/* css for body */
+    body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+/* css for heading1 */
+    .head1 {
+    margin-top: 20px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+    font-size: 30px;
+    background-color: #6f459e;
+    color: white;
+    border-radius: 15px;
+    font-weight: bolder;
+    }
+
+/* css for heading2 */
+    .head2 {
+    margin-top: 20px;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #6f459e;
+    color: white;
+    border-radius: 15px;
+    font-weight: bolder;
+        }
+
+/* css for textbox */
+    #arrv{
+        height: 35px;
+        width: auto;
+        border:#6f459e solid 2px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+/* css for barsContainer */
+    .data-container {
+    height: 320px;
+    position: relative;
+    margin-top: 10px ;
+    align-content: center;
+    /* border: skyblue solid 2px; */
+    }
+
+/* css for bars */
+    .bar {
+    width: 28px;
+    position: absolute;
+    align-self: center;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 183, 255);
+    transition: 1s all ease;
+    border-radius: 5px 5px 0px 0px;
+    }
+
+/* css for bars value */
+    .bar__id {
+    position: absolute;
+    top: -24px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    }
+
+/* css for 4 Buttons */
+    button{
+        padding: 12px;
+        font-weight: bolder;
+        border-radius: 10px;
+        background-color: lightgray;
+        font-size: 16px;
+        border: white;
+        color: aliceblue;
+        }
+
+/* css for 4 Buttons hovering effect*/
+    button:hover{
+        cursor: pointer;
+    }
+    
